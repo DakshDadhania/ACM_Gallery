@@ -3,8 +3,11 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>ACM - Gallery</title>
+        <title>ACM Gallery</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&display=swap" rel="stylesheet">
         <script>
             function showViewer() {
                 let overlay = document.querySelector("#overlay");
@@ -17,7 +20,7 @@
 
     <body id="body_gallery">
         <div class="container">
-            <div class="header">ACM Gallery</div>
+            <div class="header">acm gallery</div>
             <div class="gallery"></div>
 
             <div id="overlay">
@@ -32,7 +35,7 @@
 
         <script defer>
             let gallery = document.querySelector(".gallery");
-            let count = 25; // COUNT OF IMAGES
+            let count = 47; // COUNT OF IMAGES
             for (let index = 0; index < count; index++) {
                 var url = "images/" + String(index + 1) + ".jpg";
                 var image = document.createElement("img");

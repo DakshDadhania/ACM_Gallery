@@ -1,11 +1,23 @@
 #body_gallery {
-    background: linear-gradient(180deg, rgba(28, 39, 131),rgba(229, 249, 255),rgba(197, 102, 221));
+    background-image: linear-gradient(to left bottom, #421b31, #431e3b, #422246, #3d2852, #342e5d, #283461, #183964, #003d65, #00405d, #004053, #004046, #093f3b);
+ 
 }
-
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
 .header {
     padding: 20px;
     font-size: 5vh;
-    font-family: "Circular Std Book";
+    font-family: 'Miniver', cursive;
     color: rgba(229, 249, 255);
     text-align: center;
 }
