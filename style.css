@@ -18,14 +18,13 @@ body::-webkit-scrollbar {
     padding: 20px;
     font-size: 5vh;
     font-family: 'Miniver', cursive;
-    color: rgba(229, 249, 255);
+    color: rgb(155, 196, 209);
     text-align: center;
 }
 .subheader {
-    padding: 5px;
     font-size: 3vh;
     font-family: 'Miniver', cursive;
-    color: rgba(229, 249, 255);
+    color: rgb(237, 223, 244);
     text-align: center;
 }
 .gallery {
