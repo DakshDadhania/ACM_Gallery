@@ -21,6 +21,7 @@
     <body id="body_gallery">
         <div class="container">
             <div class="header">acm gallery</div>
+            <div class="subheader">A collection of 50 memories</div>
             <div class="gallery"></div>
 
             <div id="overlay">
@@ -35,7 +36,7 @@
 
         <script defer>
             let gallery = document.querySelector(".gallery");
-            let count = 47; // COUNT OF IMAGES
+            let count = 50; // COUNT OF IMAGES
             for (let index = 0; index < count; index++) {
                 var url = "images/" + String(index + 1) + ".jpg";
                 var image = document.createElement("img");

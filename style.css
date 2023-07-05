@@ -21,7 +21,13 @@ body::-webkit-scrollbar {
     color: rgba(229, 249, 255);
     text-align: center;
 }
-
+.subheader {
+    padding: 5px;
+    font-size: 3vh;
+    font-family: 'Miniver', cursive;
+    color: rgba(229, 249, 255);
+    text-align: center;
+}
 .gallery {
     text-align: center;
 }
